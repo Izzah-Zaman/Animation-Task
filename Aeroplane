@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+.hi {
+    width: 100%;
+    height: 600px;
+    background-image: url("http://wallpapercolor.net/wallpapers/blue-cubes-wallpaper-12803.jpg");
+
+    -webkit-animation: play .8s steps(10) infinite;
+       -moz-animation: play .8s steps(10) infinite;
+        -ms-animation: play .8s steps(10) infinite;
+         -o-animation: play .8s steps(10) infinite;
+            animation: play .8s steps(10) infinite;
+}
+div.myButton input {
+    background:url(day3.jpg) no-repeat;
+    cursor:pointer;
+    width: 200px;
+    height: 100px;
+    border: none;
+}
+
+@-webkit-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -2000px; }
+}
+
+@-moz-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -2000px; }
+}
+
+@-ms-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -2000px; }
+}
+
+@-o-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -2000px; }
+}
+
+@keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -2000px; }
+}
+
+
+</style>
+</head>
+<body>
+
+
+<div class="hi">
+<img src="space shuttle.png"
+style="width:400px;height:300px;top:200px;left:400px;position:absolute"
+/>
+</div>
+
+<div>
+<a href="space shuttle.png" target="space shuttle.png">UP!</a></p>
+<input type="button" onclick="myFunction()" value= "Up" >
+
+<script>
+function myFunction() {
+   
+}
+</script>
+
+</div>
+<div class="myButton"><INPUT type="submit" name="" value="Up"></div>
+<div class="myButton"><INPUT type="submit" name="" value="Down"></div>
+
+</body>
+</html>
